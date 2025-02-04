@@ -33,7 +33,16 @@ const Navbar = () => {
               <p className='cursor-pointer hover:text-black'>Pc Holder</p>
               <p className='cursor-pointer hover:text-black'>Stationary</p>
               <p className='cursor-pointer hover:text-black'>Storage Box</p>
-              <p className='cursor-pointer hover:text-black'>Pen/Pencil</p>
+              <p className='cursor-pointer hover:text-black'>Bags/Pouches</p>
+              <p className='cursor-pointer hover:text-black'>Table Mirror</p>
+              <p className='cursor-pointer hover:text-black'>Accessories</p>
+              <p className='cursor-pointer hover:text-black'>Electric Fans</p>
+              <p className='cursor-pointer hover:text-black'>Watch/Clock</p>
+              <p className='cursor-pointer hover:text-black'>Kawaii Mirrors </p>
+              <p className='cursor-pointer hover:text-black'>Plush Keychain</p>
+              <p className='cursor-pointer hover:text-black'>Kawaii Stationary </p>
+              <p className='cursor-pointer hover:text-black'>Keychain/ Phone charms </p>
+              <p className='cursor-pointer hover:text-black'>Plushie/keychains </p>
             </div>
           </div>
         </div>
