@@ -1,0 +1,197 @@
+// import React, { useState, useEffect } from 'react';
+// import { assets } from '../assets/assets';
+
+// const ClientReview = () => {
+//   const reviews = [
+//     {
+//       image: assets.review_image1,
+//       name: "Sushmita",
+//       review: "Amazing experience! Got the parcel. Products are all good. Thank you.",
+//     },
+//     {
+//       image: assets.review_image2,
+//       name: "Bhoomi Panchal",
+//       review: "I received the parcel. Nice quality. Thank you.",
+//     },
+//     {
+//       image: assets.review_image3,
+//       name: "Harshini",
+//       review: "Quality is good as always. Thank you for the free sticker.",
+//     },
+//     {
+//       image: assets.review_image4,
+//       name: "John Doe",
+//       review: "Great service and quality!",
+//     },
+//     {
+//       image: assets.review_image5,
+//       name: "Jane Smith",
+//       review: "Loved the products! Will order again.",
+//     },
+//     {
+//       image: assets.review_image6,
+//       name: "Emily Johnson",
+//       review: "Fast delivery and excellent quality. Highly recommend!",
+//     },
+//     // ... more reviews
+//   ];
+
+//   const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % reviews.length);
+//     }, 3000); // Change slide every 3 seconds
+
+//     return () => clearInterval(interval);
+//   }, [reviews.length]);
+
+//   const getCurrentReviews = () => {
+//     const screenWidth = window.innerWidth;
+//     const reviewsPerPage = screenWidth < 640 ? 1 : 3; // 1 card for small devices, 3 for larger devices
+//     return reviews.slice(currentReviewIndex, currentReviewIndex + reviewsPerPage);
+//   };
+
+//   return (
+//     <section className="py-12">
+//       <div className="container mx-auto">
+//         <h2 className="text-3xl font-bold text-center mb-8">What our clients say</h2>
+
+//         <div className="relative">
+//           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-6">
+//             {getCurrentReviews().map((review, index) => (
+//               <div key={index} className="bg-white rounded-lg shadow-md p-6 sm:p-8 w-full sm:max-w-xs h-64 flex flex-col justify-between">
+//                 <img
+//                   src={review.image}
+//                   alt={review.name}
+//                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+//                 />
+//                 <h3 className="text-lg sm:text-xl font-medium text-center mb-2">{review.name}</h3>
+//                 <p className="text-gray-700 text-center">"{review.review}"</p>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+
+//         {/* Current Review Set Indicator */}
+//         <div className="flex justify-center mt-8">
+//           {reviews.map((_, index) => (
+//             <span
+//               key={index}
+//               className={`mx-1 w-3 h-3 rounded-full cursor-pointer ${index === currentReviewIndex ? 'bg-blue-500' : 'bg-gray-300'}`}
+//               onClick={() => setCurrentReviewIndex(index)}
+//             ></span>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default ClientReview;
+
+
+//new code below
+
+import React, { useState, useEffect } from 'react';
+import { assets } from '../assets/assets';
+import Title from './Title';
+
+const ClientReview = () => {
+  const reviews = [
+    {
+      image: assets.review_image1,
+      name: "Sushmita",
+      review: "Amazing experience! Got the parcel. Products are all good. Thank you.",
+    },
+    {
+      image: assets.review_image2,
+      name: "Bhoomi Panchal",
+      review: "I received the parcel. Nice quality. Thank you.",
+    },
+    {
+      image: assets.review_image3,
+      name: "Harshini",
+      review: "Quality is good as always. Thank you for the free sticker.",
+    },
+    {
+      image: assets.review_image4,
+      name: "John Doe",
+      review: "Great service and quality!",
+    },
+    {
+      image: assets.review_image5,
+      name: "Jane Smith",
+      review: "Loved the products! Will order again.",
+    },
+    {
+      image: assets.review_image6,
+      name: "Emily Johnson",
+      review: "Fast delivery and excellent quality. Highly recommend!",
+    },
+    // ... more reviews
+  ];
+
+  const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % reviews.length);
+    }, 3000); // Change slide every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [reviews.length]);
+
+  const getCurrentReviews = () => {
+    const screenWidth = window.innerWidth;
+    const reviewsPerPage = screenWidth < 640 ? 1 : 3; // 1 card for small devices, 3 for larger devices
+    return reviews.slice(currentReviewIndex, currentReviewIndex + reviewsPerPage);
+  };
+
+  return (
+    <section className="py-12">
+      <div className="container mx-auto">
+        <div className='text-center text-3xl py-8'>
+          <Title text1={'WHAT OUR'} text2={'CLIENTS SAY'} />
+          <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
+            Hear from our satisfied customers who have experienced our top-notch services and products.
+          </p>
+        </div>
+
+        <div className="relative">
+          <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-6 transition-opacity duration-1000 ease-in-out">
+            {getCurrentReviews().map((review, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-md p-6 sm:p-8 w-full sm:max-w-xs h-64 flex flex-col justify-between fade-in">
+                <img
+                  src={review.image}
+                  alt={review.name}
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="text-lg sm:text-xl font-medium text-center mb-2">{review.name}</h3>
+                <p className="text-gray-700 text-center">"{review.review}"</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Current Review Set Indicator */}
+        <div className="flex justify-center mt-8">
+          {reviews.map((_, index) => (
+            <span
+              key={index}
+              className={`mx-1 w-3 h-3 rounded-full cursor-pointer ${index === currentReviewIndex ? 'bg-blue-500' : 'bg-gray-300'}`}
+              onClick={() => setCurrentReviewIndex(index)}
+            ></span>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ClientReview;
+
+
+
+
+ 
