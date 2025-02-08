@@ -51,6 +51,7 @@ import p_img47 from './p_img47.png';
 import p_img48 from './p_img48.png';
 import p_img49 from './p_img49.png';
 import p_img50 from './p_img50.png';
+
 import p_img51 from './p_img51.png';
 import p_img52 from './p_img52.png';
 
@@ -124,7 +125,7 @@ export const products = [
     price: 100,
     image: [p_img1],
     category: "Women",
-    subCategory: "Topwear",
+    subCategory: "Winterwear",
     sizes: ["S", "M", "L"],
     date: 1716634345448,
     bestseller: true
@@ -146,9 +147,9 @@ export const products = [
     name: "Men Round Neck  Cotton T-shirt",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 200,
-    image: [p_img3, p_img4, p_img4, p_img5],
+    image: [p_img3, p_img4, p_img5],
     category: "Men",
-    subCategory: "Topwear",
+    subCategory: "Winterwear",
     sizes: ["M", "L", "XL"],
     date: 1716621345448,
     bestseller: true
@@ -160,7 +161,7 @@ export const products = [
     price: 200,
     image: [p_img6, p_img7, p_img8, p_img9],
     category: "Men",
-    subCategory: "Topwear",
+    subCategory: "Bottomwear",
     sizes: ["M", "L", "XL"],
     date: 1716621345448,
     bestseller: true
@@ -244,7 +245,7 @@ export const products = [
     price: 250,
     image: [p_img34, p_img35, p_img36, p_img37],
     category: "Women",
-    subCategory: "Topwear",
+    subCategory: "Bottomwear",
     sizes: ["S", "M", "L"],
     date: 1716621345448,
     bestseller: true
@@ -280,7 +281,19 @@ export const products = [
     price: 150,
     image: [p_img46, p_img47, p_img48, p_img49],
     category: "Kids",
-    subCategory: "Topwear",
+    subCategory: "Bottomwear",
+    sizes: ["S", "M", "L"],
+    date: 1716621345448,
+    bestseller: true
+  },
+  {
+    _id: "aaaar",
+    name: "Kids Round Neck Cotton Top",
+    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+    price: 150,
+    image: [ p_img47 ],
+    category: "Kids",
+    subCategory: "Bottomwear",
     sizes: ["S", "M", "L"],
     date: 1716621345448,
     bestseller: true
@@ -290,182 +303,236 @@ export const products = [
     name: "Kids Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 200,
-    image: [p_img51, p_img52],
+    image: [p_img51,],
     category: "Kids",
-    subCategory: "Topwear",
+    subCategory: "Winterwear",
     sizes: ["S", "M", "L"],
     date: 1716621345448,
-    bestseller: true
+    bestseller: false
   },
-  
-  // other products are added here 
-  
   {
     _id: "aaaap",
-    name: "Men Round Neck Pure Cotton T-shirt",
+    name: "Kids Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaaq",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaar",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaas",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaat",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaau",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaav",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaaw",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaax",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaay",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaaz",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaaba",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaabb",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: false
-  },
-  {
-    _id: "aaabc",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
+    image: [p_img48],
+    category: "Kids",
+    subCategory: "Winterwear",
+    sizes: ["S", "M", "L"],
     date: 1716621345448,
     bestseller: false
   }
+  ,
+  {
+    _id: "aaaaq",
+    name: "Kids Round Neck Cotton Top",
+    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+    price: 200,
+    image: [ p_img52],
+    category: "Kids",
+    subCategory: "Winterwear",
+    sizes: ["S", "M", "L"],
+    date: 1716621345448,
+    bestseller: false
+  }
+
+
+
+
+
+
+  // other products are added here 
+  
+//   {
+//     _id: "aaaap",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaaq",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Winterwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaar",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Bottomwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaas",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaat",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaau",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaav",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaaw",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaax",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaay",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaaz",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaaba",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaabb",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Women",
+//     subCategory: "Topwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   {
+//     _id: "aaabc",
+//     name: "Men Round Neck Pure Cotton T-shirt",
+//     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+//     price: 200,
+//     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+//     category: "Men",
+//     subCategory: "Winterwear",
+//     sizes: ["M", "L", "XL"],
+//     date: 1716621345448,
+//     bestseller: false
+//   },
+//   // Add Bottomwear products example:
+// {
+//   _id: "aaaabw",
+//   name: "Men's Jeans",
+//   description: "Stylish denim jeans",
+//   price: 299,
+//   image: [p_img2_2], // Use appropriate image
+//   category: "Men",
+//   subCategory: "Bottomwear",
+//   sizes: ["M", "L"],
+//   bestseller: true
+// },
+// // Add more Winterwear examples:
+// {
+//   _id: "aaaaww",
+//   name: "Winter Jacket",
+//   description: "Warm winter coat",
+//   price: 599,
+//   image: [p_img2_3],
+//   category: "Women",
+//   subCategory: "Winterwear",
+//   sizes: ["S", "M"],
+//   bestseller: true
+// }
 ];
