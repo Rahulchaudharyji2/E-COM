@@ -29,13 +29,16 @@
 
  // hero.jsx
  // hero.jsx
+
+
+
 import React, { useState, useEffect } from 'react';
 import { assets } from '../assets/assets'; // Import assets
 
 const StationarySection = ({ imageSrc, title, description }) => {
   return (
     <div
-      className="relative w-full bg-cover bg-center"
+      className="relative w-full bg-cover bg-center  "
       style={{ backgroundImage: `url(${imageSrc})`, height: '400px' }} // Reduced height
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">

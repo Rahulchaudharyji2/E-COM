@@ -74,7 +74,7 @@ import support_img from './support_img.png';
 import menu_icon from './menu_icon.png';
 import about_img from './about_img.png';
 import contact_img from './contact_img.png';
-import razorpay_logo from './razorpay_logo.jpg';
+import razorpay_logo from './razorpay_logo.png';
 import stripe_logo from './stripe_logo.png';
 import cross_icon from './cross_icon.png';
 import hero_img1 from './hero_img1.jpg';
@@ -120,7 +120,7 @@ export const assets = {
 export const products = [
   {
     _id: "aaaaa",
-    name: "Women Round Neck Cotton Top",
+    name: "kids  Fit Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 100,
     image: [p_img1],
@@ -228,7 +228,7 @@ export const products = [
   },
   {
     _id: "aaaaj",
-    name: "Women Round Neck Cotton Top",
+    name: "Women Round Black Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 150,
     image: [p_img30, p_img31, p_img32, p_img33],
@@ -240,7 +240,7 @@ export const products = [
   },
   {
     _id: "aaaak",
-    name: "Women Round Neck Cotton Top",
+    name: "Women Round White Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 250,
     image: [p_img34, p_img35, p_img36, p_img37],
@@ -279,7 +279,7 @@ export const products = [
     name: "Kids Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 150,
-    image: [p_img46, p_img47, p_img48, p_img49],
+    image: [p_img46,  p_img49],
     category: "Kids",
     subCategory: "Bottomwear",
     sizes: ["S", "M", "L"],

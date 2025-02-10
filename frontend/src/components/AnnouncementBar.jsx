@@ -6,7 +6,7 @@ import React from "react";
 
 const AnnouncementBar = () => {
   return (
-    <div className="bg-gray-900 text-white text-sm font-semibold py-2 overflow-hidden mb-4">
+    <div className="bg-gray-900 text-white text-sm font-semibold py-2 overflow-hidden mb-4  ">
       <div className="marquee-container">
         <div className="marquee-content">
           {/* Marquee text */}
