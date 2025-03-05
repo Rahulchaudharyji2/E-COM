@@ -30,7 +30,7 @@ const Navbar = () => {
         </NavLink>
 
         {/* Collection Dropdown Menu */}
-        <div className='group relative'>
+        {/* <div className='group relative'>
           <NavLink to='/collection' className='flex flex-col items-center gap-1'>
             <p>COLLECTION</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
@@ -47,7 +47,26 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
+
+<div className='group relative'>
+  <NavLink to='/collection' className='flex flex-col items-center gap-1'>
+    <p>COLLECTION</p>
+    <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
+  </NavLink>
+  <div className='group-hover:block hidden absolute dropdown-menu left-0 pt-4 z-50'>
+    <div className='grid grid-cols-2 gap-2 w-72 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
+      {[
+        "Lamps", "Badges", "Sippers", "Blind Box", "Pc Holder", "Stationary",
+        "Storage Box", "Bags/Pouches", "Table Mirror", "Accessories",
+        "Electric Fans", "Watch/Clock", "Kawaii Mirrors", "Plush Keychain",
+        "Kawaii Stationary", "Keychain/Phone charms", "Plushie/keychains"
+      ].map((item, index) => (
+        <p key={index} className='cursor-pointer hover:text-black'>{item}</p>
+      ))}
+    </div>
+  </div>
+</div>
 
         <NavLink to='/about' className='flex flex-col items-center gap-1'>
           <p>ABOUT</p>
