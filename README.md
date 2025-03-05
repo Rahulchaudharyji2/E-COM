@@ -1,4 +1,4 @@
-# E-Commerce Website Frontend
+ # E-Commerce Website Frontend
 
 Welcome to my **E-Commerce Website Frontend** project! 🚀 This project is a custom-built e-commerce website created using **React.js** and **Tailwind CSS**. I have used **GitHub** as an open-source platform to track my code updates and manage my progress.
 
@@ -20,6 +20,9 @@ I followed a **step-by-step** approach to complete this project:
 5. **Bug Fixes & Optimization** – Debugged issues and improved performance.
 6. **Final Touches** – Polished UI, improved UX, and tested the website thoroughly.
 
+## 📌 Planned Features
+- I have created a **Reels Section**, but currently, I am unable to use it as it requires the **Instagram Graph API**. Since I don't have much knowledge about it yet, I will add this feature soon.
+
 ## 🤖 AI Tools Used
 To solve errors and optimize the code, I used:
 - **ChatGPT** – Helped in debugging and code suggestions.
@@ -29,6 +32,7 @@ To solve errors and optimize the code, I used:
 - Adding **backend functionality** to make the website fully functional.
 - Implementing **authentication & payment integration**.
 - Enhancing UI/UX with advanced animations.
+- Integrating **Instagram Reels** using the **Instagram Graph API**.
 
 ## 🎯 Conclusion
 This project helped me enhance my **React.js and Tailwind CSS** skills while improving my problem-solving abilities. I also learned how to manage an open-source project on **GitHub** and utilize AI tools for development.
