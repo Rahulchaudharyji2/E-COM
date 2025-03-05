@@ -15,7 +15,7 @@ const ProductItem = ({ id, image, name, price }) => {
           className='hover:scale-110 transition ease-in-out'
           src={image[0]}
           alt={name}
-          style={{ height: '220px', objectFit: 'cover', width: '100%' }} // Added fixed height and objectFit property
+          style={{ height: '300px', objectFit: 'cover', width: '100%' }} // Added fixed height and objectFit property hight change from 250 px to 300px
         />
       </div>
       <p className='pt-3 pb-1 text-sm'>{name}</p>

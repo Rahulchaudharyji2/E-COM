@@ -1,4 +1,7 @@
 import p_img1 from './p_img1.jpg';
+import p_img1_2 from './p_img1_2.jpg';
+import p_img1_3 from './p_img1_3.jpg';
+import p_img1_4 from './p_img1_4.jpg';
 import p_img2_1 from './p_img2_1.jpg';
 import p_img2_2 from './p_img2_2.jpg';
 import p_img2_3 from './p_img2_3.jpg';
@@ -16,7 +19,7 @@ import p_img12 from './p_img12.jpg';
 import p_img13 from './p_img13.jpg';
 import p_img14 from './p_img14.jpg';
 import p_img15 from './p_img15.jpg';
-import p_img16 from './p_img16.png';
+import p_img16 from './p_img16.jpg';
 import p_img17 from './p_img17.jpg';
 import p_img18 from './p_img18.jpg';
 import p_img19 from './p_img19.jpg';
@@ -26,28 +29,28 @@ import p_img22 from './p_img22.jpg';
 import p_img23 from './p_img23.jpg';
 import p_img24 from './p_img24.jpg';
 import p_img25 from './p_img25.jpg';
-import p_img26 from './p_img26.png';
-import p_img27 from './p_img27.png';
-import p_img28 from './p_img28.png';
-import p_img29 from './p_img29.png';
-import p_img30 from './p_img30.png';
-import p_img31 from './p_img31.png';
-import p_img32 from './p_img32.png';
-import p_img33 from './p_img33.png';
+import p_img26 from './p_img26.jpg';
+import p_img27 from './p_img27.jpg';
+import p_img28 from './p_img28.jpg';
+import p_img29 from './p_img29.jpg';
+import p_img30 from './p_img30.jpg';
+// import p_img31 from './p_img31.png';
+// import p_img32 from './p_img32.png';
+// import p_img33 from './p_img33.png';
 import p_img34 from './p_img34.png';
 import p_img35 from './p_img35.png';
 import p_img36 from './p_img36.png';
 import p_img37 from './p_img37.png';
-import p_img38 from './p_img38.png';
-import p_img39 from './p_img39.png';
-import p_img40 from './p_img40.png';
-import p_img41 from './p_img41.png';
+import p_img38 from './p_img38.jpg';
+import p_img39 from './p_img39.jpg';
+// import p_img40 from './p_img40.png';
+// import p_img41 from './p_img41.png';
 import p_img42 from './p_img42.png';
 import p_img43 from './p_img43.png';
-import p_img44 from './p_img44.png';
-import p_img45 from './p_img45.png';
+// import p_img44 from './p_img44.png';
+// import p_img45 from './p_img45.png';
 import p_img46 from './p_img46.png';
-import p_img47 from './p_img47.png';
+import p_img47 from './p_img47.jpg';
 import p_img48 from './p_img48.png';
 import p_img49 from './p_img49.png';
 import p_img50 from './p_img50.png';
@@ -123,7 +126,7 @@ export const products = [
     name: "kids  Fit Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 100,
-    image: [p_img1],
+    image: [p_img1,p_img1_2,p_img1_3,p_img1_4],
     category: "Women",
     subCategory: "Winterwear",
     sizes: ["S", "M", "L"],
@@ -231,7 +234,7 @@ export const products = [
     name: "Women Round Black Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 150,
-    image: [p_img30, p_img31, p_img32, p_img33],
+    image: [p_img30],
     category: "Women",
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
@@ -255,7 +258,7 @@ export const products = [
     name: "Women Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 300,
-    image: [p_img38, p_img39, p_img40, p_img41],
+    image: [p_img38, p_img39],
     category: "Women",
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
@@ -267,7 +270,7 @@ export const products = [
     name: "Kids Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 100,
-    image: [p_img42, p_img43, p_img44, p_img45],
+    image: [p_img42, p_img43],
     category: "Kids",
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
@@ -303,38 +306,38 @@ export const products = [
     name: "Kids Round Neck Cotton Top",
     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 200,
-    image: [p_img51,],
+    image: [p_img47,],
     category: "Kids",
     subCategory: "Winterwear",
     sizes: ["S", "M", "L"],
     date: 1716621345448,
     bestseller: false
   },
-  {
-    _id: "aaaap",
-    name: "Kids Round Neck Cotton Top",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [p_img48],
-    category: "Kids",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L"],
-    date: 1716621345448,
-    bestseller: false
-  }
-  ,
-  {
-    _id: "aaaaq",
-    name: "Kids Round Neck Cotton Top",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 200,
-    image: [ p_img52],
-    category: "Kids",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L"],
-    date: 1716621345448,
-    bestseller: false
-  }
+  // {
+  //   _id: "aaaap",
+  //   name: "Kids Round Neck Cotton Top",
+  //   description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+  //   price: 200,
+  //   image: [p_img48],
+  //   category: "Kids",
+  //   subCategory: "Winterwear",
+  //   sizes: ["S", "M", "L"],
+  //   date: 1716621345448,
+  //   bestseller: false
+  // }
+  // ,
+  // {
+  //   _id: "aaaaq",
+  //   name: "Kids Round Neck Cotton Top",
+  //   description: "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+  //   price: 200,
+  //   image: [ p_img52],
+  //   category: "Kids",
+  //   subCategory: "Winterwear",
+  //   sizes: ["S", "M", "L"],
+  //   date: 1716621345448,
+  //   bestseller: false
+  // }
 
 
 

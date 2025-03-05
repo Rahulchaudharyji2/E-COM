@@ -19,6 +19,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
+
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] 1g:px-[9vw]'>

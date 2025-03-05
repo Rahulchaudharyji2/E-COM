@@ -6,6 +6,7 @@ import OurPolicy from '../components/OurPolicy'
 import NewsletterBox from '../components/NewsletterBox'
 import ClientReview from '../components/ClientReview'
 import AnnouncementBar from '../components/AnnouncementBar'
+// import Reel from '../components/Reel'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero/>
       <LatestCollection/>
       <BestSeller/>
+      {/* <Reel/> */}
       <ClientReview/>
       <OurPolicy/>
       <NewsletterBox/>
