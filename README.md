@@ -1,4 +1,4 @@
- # E-Commerce Website Frontend
+ # E-Commerce Website Frontend.
 
 Welcome to my **E-Commerce Website Frontend** project! 🚀 This project is a custom-built e-commerce website created using **React.js** and **Tailwind CSS**. I have used **GitHub** as an open-source platform to track my code updates and manage my progress.
 
